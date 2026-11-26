@@ -2,7 +2,7 @@
 
 <!-- Cuando el libro esté publicado en Amazon, añadir aquí el enlace a su página. -->
 
-Este repositorio acompaña al libro **Cómo crear una página web y no morir en el intento**, de Rafael Pannacci. Aquí están los dos proyectos de ejemplo que el libro usa en los capítulos 5 y 6: la misma página, construida de dos maneras.
+Este repositorio acompaña al libro **Cómo crear una página web y no morir en el intento. Guía práctica para publicar tu primera página con ayuda de la IA**, de Rafael Pannacci. Aquí están los dos proyectos de ejemplo que el libro usa en los capítulos 5 y 6: la misma página, construida de dos maneras.
 
 | Carpeta | Qué es | Capítulo |
 |---|---|---|
@@ -15,11 +15,11 @@ Este repositorio acompaña al libro **Cómo crear una página web y no morir en 
 
 No necesitas saber usar Git:
 
-1. Pulsa el botón verde **Code**, arriba a la derecha de esta página.
+1. Pulsa **Code**, encima de la lista de archivos.
 2. Elige **Download ZIP** y descomprime el archivo.
 3. Copia la carpeta del proyecto que quieras (`ruedalibre-astro` o `ruedalibre-react`) a un lugar de tu computadora, por ejemplo Documentos.
 
-Si prefieres Git: `git clone https://github.com/somossoftgrama/como-crear-una-pagina-web-material.git`
+Si prefieres Git: `git clone https://github.com/somossoftgrama/pagina-web-material.git`
 
 ## Cómo usarlo
 
