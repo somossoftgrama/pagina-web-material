@@ -1,0 +1,29 @@
+{
+  "name": "ruedalibre-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Página de ejemplo de Ruedalibre hecha con React y Vite. Material complementario del libro Cómo crear una página web y no morir en el intento.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@vitejs/plugin-react": "6.3.0",
+    "eslint": "10.15.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.8",
+    "globals": "17.14.0",
+    "vite": "8.4.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

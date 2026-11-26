@@ -1,0 +1,116 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Datos para buscadores. Cambia el nombre, la dirección del sitio y la zona por los tuyos.
+const datos = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'Ruedalibre',
+  url: 'https://ruedalibre.example',
+  description: 'Mantenimiento de bicicletas a domicilio en Quito.',
+  areaServed: 'Quito, Ecuador',
+};
+---
+<Base
+  title="Ruedalibre | Mantenimiento de bicicletas a domicilio en Quito"
+  description="Revisamos y arreglamos tu bicicleta en tu casa u oficina, en Quito. Revisión desde $15. Escríbenos por WhatsApp."
+  schema={datos}
+>
+  <header class="sitio">
+    <div class="contenedor">
+      <a class="marca" href="/">Ruedalibre</a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#zona">Zona y horario</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <section class="hero">
+        <h1>Mantenimiento de bicicletas a domicilio en Quito</h1>
+        <p>Vamos a tu casa u oficina, revisamos tu bicicleta y la dejamos lista para rodar. Sin cargarla, sin esperar en un taller.</p>
+        <a class="boton" href="https://wa.me/593990000000?text=Hola%2C%20quiero%20una%20revisi%C3%B3n%20para%20mi%20bicicleta.">Escríbenos por WhatsApp</a>
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios y precios</h2>
+        <div class="tarjetas">
+          <div class="tarjeta">
+            <h3>Revisión básica</h3>
+            <p class="precio">$15</p>
+            <p>Frenos, cambios, cadena y presión de las llantas. Ideal si tu bicicleta hace ruido o frena mal.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>Mantenimiento completo</h3>
+            <p class="precio">$35</p>
+            <p>Revisión básica más limpieza, lubricación y ajuste de ruedas, dirección y pedales.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>Reparación de pinchazo</h3>
+            <p class="precio">$8</p>
+            <p>Parche o cambio de cámara en el lugar. Si hace falta una cámara nueva, se suma su costo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona">
+        <h2>Cómo funciona</h2>
+        <ol class="pasos">
+          <li>Escríbenos por WhatsApp y cuéntanos qué le pasa a tu bicicleta.</li>
+          <li>Acordamos el día y la hora que te queden bien.</li>
+          <li>Vamos a tu dirección, la arreglamos ahí mismo y pagas al terminar.</li>
+        </ol>
+      </section>
+
+      <section id="zona">
+        <h2>Zona y horario</h2>
+        <p><strong>Zona:</strong> atendemos en el norte, centro y sur de Quito.</p>
+        <p><strong>Horario:</strong> de lunes a sábado, de 8:00 a 18:00.</p>
+      </section>
+
+      <section id="preguntas">
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Cuánto tarda cada servicio?</summary>
+          <p>La revisión básica toma entre 40 y 60 minutos. El mantenimiento completo, unas 2 horas.</p>
+        </details>
+        <details>
+          <summary>¿Qué incluye la revisión básica?</summary>
+          <p>Revisamos frenos, cambios, cadena y presión de las llantas, y ajustamos lo que haga falta.</p>
+        </details>
+        <details>
+          <summary>¿Llevan repuestos?</summary>
+          <p>Llevamos cámaras, pastillas de freno y cables de uso común. Si tu bicicleta necesita otra pieza, te avisamos el costo antes de comprarla.</p>
+        </details>
+        <details>
+          <summary>¿Cómo se paga?</summary>
+          <p>Pagas al terminar el trabajo, en efectivo o por transferencia.</p>
+        </details>
+        <details>
+          <summary>¿Y si mi barrio no está en la zona?</summary>
+          <p>Escríbenos por WhatsApp con tu dirección y te decimos si podemos llegar.</p>
+        </details>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>WhatsApp: <a href="https://wa.me/593990000000">+593 99 000 0000</a></p>
+        <p>Correo: <a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
+        <p class="aviso">Ruedalibre es un negocio de ejemplo. El teléfono y el correo son inventados.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="sitio">
+    <div class="contenedor">
+      <p>© 2026 Ruedalibre · <a href="/privacidad/">Aviso de privacidad</a></p>
+    </div>
+  </footer>
+</Base>
